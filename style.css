@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Debby';
+    src: url('Debby.ttf')  format('truetype');
+
+}
+@font-face {
+    font-family: 'Neoteric';
+    src: url('NEOTERIC.ttf')  format('truetype');
+}
+
+body{
+    background-color: #fff8ff;
+}
+
+container {
+    height: 400px;
+}
+
+#bajs {
+    height: auto;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Neoteric', cursive;
+    font-size: 35px;
+    color: #4f5050;
+}
+
+#btn {
+    background-color: #cb1942;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Neoteric', cursive;
+    font-style: bold;
+    font-size: 26px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+#btn:hover {
+    box-shadow: 0 10px 13px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#word-info {
+    font-family: 'Neoteric', cursive;
+    font-size: 29px;
+}
+
+#def-bajs {
+    font-family: 'Neoteric', cursive;
+    width: 350px;
+}
+
+#myAnchor {
+    text-decoration: none;
+    font-family: 'Neoteric', cursive;
+    color: #2a2a2a;
+}
+
+#footer {
+    margin-top: 300px;
+    font-family: 'Neoteric', cursive;
+    color: #2a2a2a;
+    font-size: 10px;
+}
