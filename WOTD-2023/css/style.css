@@ -25,7 +25,9 @@ h3 {
 
 header {
     padding: 2rem 0;
-    background-color: #c51f57;
+    /* background-color: #c51f57; */
+    background-image: url(../imgs/bg.png);
+    background-position: center;
     color: white;
     margin-bottom: 4rem
 }
