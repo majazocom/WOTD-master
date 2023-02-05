@@ -9,7 +9,9 @@ async function getWOTD() {
 };
 
 async function renderRandomWordToUI(word) {
-    wotdEl.innerHTML = await word;
+    let w = await word;
+    w = w[0].toUpperCase();
+    wotdEl.innerHTML = w;
 
     // call the api that returns a definition of a word
     let response = await fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + await word);
